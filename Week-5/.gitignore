@@ -1,0 +1,19 @@
+# Node.js
+**/node_modules/
+**/build/
+
+# Java / Maven
+**/target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
