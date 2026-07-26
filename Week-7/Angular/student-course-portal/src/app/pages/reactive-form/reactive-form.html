@@ -1,0 +1,33 @@
+<h2>Reactive Form</h2>
+
+<form [formGroup]="profileForm"
+(ngSubmit)="submit()">
+
+<input
+type="text"
+placeholder="Name"
+formControlName="name">
+
+<br><br>
+
+<input
+type="text"
+placeholder="Department"
+formControlName="department">
+
+<br><br>
+
+<input
+type="text"
+placeholder="College"
+formControlName="college">
+
+<br><br>
+
+<button type="submit">
+
+Submit
+
+</button>
+
+</form>
